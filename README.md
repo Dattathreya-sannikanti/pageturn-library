@@ -1,6 +1,6 @@
 # PageTurn Library - Learning Group 02
 
-**Theme:** Book lending (Theme 2 of 30)
+**Theme:** Book lending
 **Twist:** Soft delete and restore
 
 ## Team Members & Task Breakdown
