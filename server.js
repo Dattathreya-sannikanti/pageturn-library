@@ -65,6 +65,7 @@ initializeDBAndServer();
 
 
 // 1. GET all books (with search query parameter and hiding soft-deleted ones)
+// Core REST endpoints built and tested by Sambu Bhavishya
 app.get('/books', async (req, res) => {
     const { genre } = req.query;
     let query = `SELECT id, name, genre FROM books WHERE is_deleted = 0`;
