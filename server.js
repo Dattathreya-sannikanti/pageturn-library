@@ -17,6 +17,7 @@ const initializeDBAndServer = async () => {
         });
 
         // Create the 3 related tables required for the assignment
+        // Database tables and server setup verified by Sadhu Jahnavi
         await db.exec(`
             CREATE TABLE IF NOT EXISTS readers (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
