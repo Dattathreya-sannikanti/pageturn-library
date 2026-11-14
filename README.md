@@ -11,7 +11,7 @@
 | Sambu Bhavishya | 252U1R1224 | **Core REST Endpoints:** GET, POST, PUT, and the loans JOIN query | Major |
 | Samala Ashwitha | 252U1R1223 | **Validation & Search:** Input validation (400 errors) and genre search query | Major |
 | Sannikanti Venkata Datthathreya | 252U1R1226 | **Twist Logic:** Soft delete flag, hidden GET filter, and restore endpoint | Major |
-| Sampath Uday Kumar | 252U1R1225 | **Testing & Docs:** Postman collection generation and README documentation | Sub-Branch |
+| Sampath Uday Kumar | 252U1R1225 | **Testing & Docs:** Postman collection generation and README documentation | Major |
 
 ## Setup and Run
 1. Install dependencies:
