@@ -17,6 +17,7 @@ const initializeDBAndServer = async () => {
         });
 
         // Create the 3 related tables required for the assignment
+        // Database tables and server setup verified by Sadhu Jahnavi
         await db.exec(`
             CREATE TABLE IF NOT EXISTS readers (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -64,6 +65,7 @@ initializeDBAndServer();
 
 
 // 1. GET all books (with search query parameter and hiding soft-deleted ones)
+// Core REST endpoints built and tested by Sambu Bhavishya
 app.get('/books', async (req, res) => {
     const { genre } = req.query;
     let query = `SELECT id, name, genre FROM books WHERE is_deleted = 0`;
