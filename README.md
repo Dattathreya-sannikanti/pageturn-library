@@ -17,3 +17,26 @@
 1. Install dependencies:
    ```bash
    npm install
+
+## Postman API Testing Results
+
+**1. Get All Books (GET)**
+![Get All Books](screenshots/get-all-books.png)
+
+**2. Get Book via ID (GET)**
+![Get Book via ID](screenshots/get-book-by-id.png)
+
+**3. Create a Book (POST)**
+![Create Book](screenshots/create-book.png)
+
+**4. Update a Book (PUT)**
+![Update Book](screenshots/update-book.png)
+
+**5. Get Loan Details (GET)**
+![Get Loan Details](screenshots/get-loan-details.png)
+
+**6. Delete a Book (DELETE - Twist)**
+![Delete Book](screenshots/delete-book.png)
+
+**7. Restoring a Book (POST - Twist)**
+![Restore Book](screenshots/restore-book.png)
