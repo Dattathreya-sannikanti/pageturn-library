@@ -94,7 +94,7 @@ app.get('/books/:id', async (req, res) => {
 // 3. POST /books (with Validation for name and genre)
 app.post('/books', async (req, res) => {
     const { name, genre } = req.body;
-
+// Input validation and search queries verified by Samala Ashwitha
     if (!name || !genre) {
         return res.status(400).send({ message: "Both name and genre are required." });
     }
